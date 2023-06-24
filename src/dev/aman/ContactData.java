@@ -7,17 +7,17 @@ import java.util.Scanner;
 
 public class ContactData {
     private static final String phoneData= """
-            Jake Dawson,2343525252;
-            Tom Cruz,2433426226,
-            Samuel Jackson,3343434352;
-            Tom Cruz,2332422422;
+            Jake Dawson,2343525252
+            Tom Cruz,2433426226
+            Samuel Jackson,3343434352
+            Tom Cruz,2332422422
+            Samuel Jackson,3343434352
             """;
     private static final String emailData= """
-            Jake Dawson,jake@gmail.com;
-            Tom Cruz,tom@gmail.com,
-            Samuel Jackson,samuel@g
-            mail.com;
-            Samuel Jackson,samuel12@gmail.com;
+            Jake Dawson,jake@gmail.com
+            Tom Cruz,tom@gmail.com
+            Samuel Jackson,samuel@gmail.com
+            Samuel Jackson,samuel12@gmail.com
             """;
 
 
