@@ -27,9 +27,11 @@ public class Contact {
         }
 
         String p=String.valueOf(phone);
-        p="(%s) %s-%s".formatted(p.substring(0,3),p.substring(3,6),p.substring(6));
+        if(phone>0) {
+            p = "(%s) %s-%s".formatted(p.substring(0, 3), p.substring(3, 6), p.substring(6));
 
-        phones.add(p);
+            phones.add(p);
+        }
     }
 
 
