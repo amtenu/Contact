@@ -12,12 +12,14 @@ public class ContactData {
             Samuel Jackson,3343434352
             Tom Cruz,2332422422
             Samuel Jackson,3343434352
+            Aman,2323232322
             """;
     private static final String emailData= """
             Jake Dawson,jake@gmail.com
             Tom Cruz,tom@gmail.com
             Samuel Jackson,samuel@gmail.com
             Samuel Jackson,samuel12@gmail.com
+            Aman,aman@gmail.com
             """;
 
 
